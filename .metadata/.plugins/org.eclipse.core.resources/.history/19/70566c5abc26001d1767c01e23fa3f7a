@@ -1,0 +1,165 @@
+package UnitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ResponseTesting {
+
+	@Test
+	
+	public void test1() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		boolean response1 = rangeCheck.requestAcceptance(2500, 100);
+		
+		
+		assertEquals(expectedResponse,response1);
+	
+				
+	}
+	public void test2() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		boolean response2 = rangeCheck.requestAcceptance(2500, 200);
+		
+		
+		assertEquals(expectedResponse,response2);
+		
+	
+
+
+		
+	}
+
+	
+	public void test3() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		
+		boolean response3 = rangeCheck.requestAcceptance(2500, 199);
+		
+		
+		assertEquals(expectedResponse,response3);
+		
+		
+
+
+
+		
+	}
+
+	
+	public void test4() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		boolean response4 = rangeCheck.requestAcceptance(2500, 50);
+		
+
+		assertEquals(expectedResponse,response4);
+		
+
+
+
+
+		
+	}
+
+	
+	public void test5() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+
+		boolean response5 = rangeCheck.requestAcceptance(2500, 51);
+		
+
+		assertEquals(expectedResponse,response5);
+
+
+
+
+		
+	}
+
+	
+	public void test6() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		boolean response6 = rangeCheck.requestAcceptance(5000, 100);
+	
+		
+
+		assertEquals(expectedResponse,response6);
+	
+
+
+
+		
+	}
+
+	
+	public void test7() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+
+		boolean response7 = rangeCheck.requestAcceptance(4999, 100);
+
+		assertEquals(expectedResponse,response7);
+		
+	
+
+
+		
+	}
+
+	
+	public void test8() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		
+		boolean response8 = rangeCheck.requestAcceptance(500, 100);
+		
+		assertEquals(expectedResponse,response8);
+
+
+
+
+		
+	}
+
+	
+	public void test9() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		
+		boolean response9 = rangeCheck.requestAcceptance(501, 100);
+		
+
+		assertEquals(expectedResponse,response9);
+		
+		
+
+
+		
+	}
+	
+	
+
+
+}

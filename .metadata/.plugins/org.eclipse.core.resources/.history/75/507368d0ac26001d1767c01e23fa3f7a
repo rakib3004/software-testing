@@ -1,0 +1,15 @@
+package UnitTest;
+
+public class MainClass {
+	
+	public int square(int n) {
+		return n*n;
+	}
+	
+	public int qubic(int n) {
+		return n*n*n;
+	}
+	
+
+
+}

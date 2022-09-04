@@ -1,0 +1,30 @@
+package EquvalanceTesting;
+
+import java.util.*;
+
+public class PhoneManager {
+	
+	public String appSection(String appName,double minitues, ) {
+		
+		AppGroup appGroup = new AppGroup();
+		
+		
+		
+	String[] googleAppGroup=new String[] {"Gmail", "Google Drive", "Google Docs", "Google Photos"};
+	String[] toDoAppGroup=new String[] {"Calculator", "Calendar", "Stopwatch", "Note"};
+	String[] socialMediaAppGroup=new String[] {"Facebook", "Twitter", "Instragram", "LinkedIn"};
+
+	
+	List<String> googleAppList = Arrays.asList(googleAppGroup);  
+	List<String> toDoAppList = Arrays.asList(toDoAppGroup);  
+	List<String> socialMediaAppList = Arrays.asList(socialMediaAppGroup);  
+	
+	
+	
+	
+	
+		return "";
+	}
+	
+
+}

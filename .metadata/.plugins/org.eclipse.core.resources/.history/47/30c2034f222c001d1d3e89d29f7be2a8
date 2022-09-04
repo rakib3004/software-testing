@@ -1,0 +1,14 @@
+package EquvalanceTesting;
+
+public class PhoneManager {
+	
+	public String appSection() {
+		
+		  ArrayList<String> cars = new ArrayList<String>();
+		    cars.add("Volvo");
+		
+		return "";
+	}
+	
+
+}

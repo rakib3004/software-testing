@@ -1,0 +1,52 @@
+package PhoneLoadTesting;
+
+
+public class PhoneStorage {
+	
+	public double findHarmfulFolderSize(double photoStorage, double videoStorage, double documentStorage, double audioStorage) {
+		double harmfulFolderSize=0.0;
+		
+	boolean validDataSizeState = calculateValidDataSize(photoStorage,videoStorage,documentStorage,audioStorage);
+	
+	if(validDataSizeState==true) {
+		
+		harmfulFolderSize=calculateLargestStorage(photoStorage,videoStorage,documentStorage,audioStorage);
+		
+		return harmfulFolderSize;
+	}
+	else {
+		return -1.0;
+	}
+		
+	}
+
+	public boolean calculateValidDataSize(double photoStorage, double videoStorage, double documentStorage, double audioStorage) {
+		
+		
+		if((photoStorage>1500&&photoStorage<3000)&&(videoStorage>1500&&videoStorage<3000)&&(documentStorage>1500&&documentStorage<3000)) {
+			return true;
+		}
+		else {
+			return false;
+
+		}
+		
+}
+	
+	
+	public double calculateLargestStorage(double photoStorage, double videoStorage, double documentStorage, double audioStorage) {
+		
+		double tempDataSize = 0.0;
+		double bestDataSize = 0.0;
+		
+		tempDataSize = Math.max(photoStorage, videoStorage);
+		tempDataSize = Math.max(tempDataSize, documentStorage);
+		bestDataSize = Math.max(tempDataSize, audioStorage);
+		
+		return bestDataSize;
+		
+}
+	
+	
+	
+}

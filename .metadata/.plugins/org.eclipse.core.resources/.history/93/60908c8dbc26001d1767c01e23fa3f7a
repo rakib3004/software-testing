@@ -1,0 +1,22 @@
+package UnitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Response2 {
+
+	@Test
+	public void test() {
+RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		boolean response2 = rangeCheck.requestAcceptance(2500, 200);
+		
+		
+		assertEquals(expectedResponse,response2);
+		
+	}
+
+}

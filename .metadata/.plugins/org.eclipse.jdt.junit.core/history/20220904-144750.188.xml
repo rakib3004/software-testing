@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProgrammerRatingTest" project="Testing" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="EquvalanceTesting.ProgrammerRatingTest" time="0.039" displayname="ProgrammerRatingTest" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]">
+    <testcase name="test" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.02" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test()]"/>
+    <testcase name="test1" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.002" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test1()]"/>
+    <testcase name="test2" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.002" displayname="test2()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test2()]"/>
+    <testcase name="test3" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.003" displayname="test3()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test3()]"/>
+    <testcase name="test4" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.002" displayname="test4()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test4()]"/>
+    <testcase name="test5" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.001" displayname="test5()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test5()]"/>
+    <testcase name="test6" classname="EquvalanceTesting.ProgrammerRatingTest" time="0.009" displayname="test6()" uniqueid="[engine:junit-jupiter]/[class:EquvalanceTesting.ProgrammerRatingTest]/[method:test6()]"/>
+  </testsuite>
+</testrun>

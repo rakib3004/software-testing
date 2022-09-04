@@ -1,0 +1,11 @@
+package EquvalanceTesting;
+
+public class ProgrammerRating {
+	
+	public double calculateRating(double codeForceRating, double hackkerRankRating, double leedCodeRating) {
+		
+	boolean valideContestant = calculateValideRating(codeForceRating,hackkerRankRating,)
+		return 0.0;
+	}
+
+}

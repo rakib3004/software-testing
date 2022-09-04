@@ -1,0 +1,25 @@
+package UnitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MathTesting {
+
+	@Test
+	public void test() {
+		MainClass unitOne = new MainClass();
+		
+		int result1 = unitOne.square(2);
+		int result2 = unitOne.qubic(3);
+		int result3 = unitOne.polynomial(1);
+		
+
+		
+		assertEquals(4,result1);
+		assertEquals(27,result2);
+		assertEquals(4,result3);
+	
+	}
+
+}

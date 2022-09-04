@@ -1,0 +1,15 @@
+package UnitTest;
+
+public class RangeCheck {
+	
+	public boolean requestAcceptance(int dataSize, int timeStamp) {
+		
+		if((dataSize<5000)&&(timeStamp<200)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+}

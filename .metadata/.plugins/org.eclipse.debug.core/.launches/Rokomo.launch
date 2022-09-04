@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Rokomo"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.eclemma.core.SCOPE_IDS">
+        <listEntry value="=Rokomo/src"/>
+        <listEntry value="=Rokomo/\/home\/rakib3004\/.p2\/pool\/plugins\/org.junit_4.13.0.v20200204-1500.jar=/javadoc_location=/http:\/\/junit.org\/junit4\/javadoc\/latest\/=/"/>
+        <listEntry value="=Rokomo/"/>
+        <listEntry value="=Rokomo/\/home\/rakib3004\/.p2\/pool\/plugins\/org.hamcrest.core_1.3.0.v20180420-1519.jar=/javadoc_location=/http:\/\/hamcrest.org\/JavaHamcrest\/javadoc\/1.3\/=/"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value="=Rokomo"/>
+    <booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Rokomo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-ea"/>
+</launchConfiguration>

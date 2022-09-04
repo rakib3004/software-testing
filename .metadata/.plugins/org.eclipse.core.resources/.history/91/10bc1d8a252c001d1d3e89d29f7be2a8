@@ -1,0 +1,26 @@
+package EquvalanceTesting;
+
+public class ProgrammerRating {
+	
+	public double calculateRating(double codeForceRating, double codeChefRating, double leetCodeRating) {
+		
+	boolean valideContestant = calculateValideRating(codeForceRating,codeChefRating,leetCodeRating);
+	
+	if(valideContestant==true) {
+		
+	}
+		return 0.0;
+	}
+
+	public boolean calculateValideRating(double codeForceRating, double codeChefRating, double leetCodeRating) {
+		
+		
+		if((codeForceRating>1500&&codeForceRating<3000)&&(codeChefRating>700&&codeChefRating<1700)&&(leetCodeRating>1300&&leetCodeRating<4500)) {
+			
+		}
+			return true;
+		}
+	
+	
+	
+}

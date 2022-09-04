@@ -1,0 +1,27 @@
+package EquvalanceTesting;
+
+public class ProgrammerRating {
+	
+	public double calculateRating(double codeForceRating, double codeChefRating, double leetCodeRating) {
+		
+	boolean valideContestant = calculateValideRating(codeForceRating,codeChefRating,leetCodeRating);
+	
+	if(valideContestant==true) {
+		
+	}
+		return 0.0;
+	}
+
+	public boolean calculateValideRating(double codeForceRating, double codeChefRating, double leetCodeRating) {
+		
+		boolean valideContestant = calculateValideRating(codeForceRating,codeChefRating,leetCodeRating);
+		
+		if(valideContestant==true) {
+			
+		}
+			return true;
+		}
+	
+	
+	
+}

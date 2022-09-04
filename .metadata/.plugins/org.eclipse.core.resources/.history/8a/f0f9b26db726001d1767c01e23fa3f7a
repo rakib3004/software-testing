@@ -1,0 +1,39 @@
+package UnitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AcceptanceUnit {
+
+	@Test
+	public void test() {
+		RangeCheck rangeCheck = new RangeCheck();
+		
+		boolean expectedResponse= true;
+		
+		boolean response1 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response2 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response3 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response4 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response5 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response6 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response7 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response8 = rangeCheck.requestAcceptance(5000, 5);
+		boolean response9 = rangeCheck.requestAcceptance(5000, 5);
+		
+		assertEquals(expectedResponse,response1);
+		assertEquals(expectedResponse,response2);
+		assertEquals(expectedResponse,response3);
+		assertEquals(expectedResponse,response4);
+		assertEquals(expectedResponse,response5);
+		assertEquals(expectedResponse,response6);
+		assertEquals(expectedResponse,response7);
+		assertEquals(expectedResponse,response8);
+		assertEquals(expectedResponse,response9);
+
+
+		
+	}
+
+}

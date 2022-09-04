@@ -1,0 +1,78 @@
+package PhoneLoadTesting;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+class PhoneStorageTest {
+
+	@Test
+	void test() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(1700,2750,2300);
+		
+		assertEquals(2750,user1Storage);
+	}
+	
+	@Test
+	void test1() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(200,2750,2300);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+	
+	@Test
+	void test2() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(5000,2750,2300);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+	
+	@Test
+	void test3() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(1700,200,2300);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+	
+	@Test
+	void test4() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(1700,5000,2300);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+	
+	@Test
+	void test5() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(1700,2750,200);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+	@Test
+	void test6() {
+		PhoneStorage user1Phone = new PhoneStorage();
+		
+		double user1Storage = user1Phone.findHarmfulFolderSize(1700,2750,5000);
+		
+		assertEquals(-1,user1Storage);
+	}
+	
+
+}

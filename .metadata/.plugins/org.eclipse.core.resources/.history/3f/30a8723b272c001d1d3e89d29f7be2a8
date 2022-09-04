@@ -1,0 +1,10 @@
+package EquvalanceTesting;
+
+public class AppGroup {
+	
+	String googleGroup;
+	String toDoListGroup;
+	String socialMediaGroup;
+	
+
+}

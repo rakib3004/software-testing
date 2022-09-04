@@ -1,0 +1,14 @@
+package EquvalanceTesting;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProgrammerRatingTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
